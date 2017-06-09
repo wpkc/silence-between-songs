@@ -1,0 +1,8 @@
+<SoftwareVersion>
+  <VersionMajor>4</VersionMajor>
+  <VersionMinor>2</VersionMinor>
+  <VersionRelease>1</VersionRelease>
+  <VersionBuild>2</VersionBuild>
+  <UpdateURL>http://www.tangoexchange.com/versions/silencebetweensongs.mmip</UpdateURL>
+  <NewVersionDescription>MediaMonkey Script: Add silence between songs.</NewVersionDescription>
+</SoftwareVersion>

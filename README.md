@@ -3,7 +3,7 @@ Silence Between Songs
 
 MediaMonkey Script: Adds a configurable length of silence between songs. 
 
-Note: The functionality of this script is now built-in to the Cortina plug-in. Development and support for this plug-in has been discontinued. Please use the Cortina plug-in instead.
+<em>Note: The functionality of this script is now built-in to the Cortina plug-in. Development and support for this plug-in has been discontinued. Please use the Cortina plug-in instead.</em>
 
 Installation:
 

@@ -1,8 +1,8 @@
 <SoftwareVersion>
-  <VersionMajor>4</VersionMajor>
-  <VersionMinor>2</VersionMinor>
-  <VersionRelease>1</VersionRelease>
-  <VersionBuild>2</VersionBuild>
-  <UpdateURL>http://www.tangoexchange.com/versions/silencebetweensongs.mmip</UpdateURL>
-  <NewVersionDescription>MediaMonkey Script: Add silence between songs.</NewVersionDescription>
+  <VersionMajor>5</VersionMajor>
+  <VersionMinor>0</VersionMinor>
+  <VersionRelease>0</VersionRelease>
+  <VersionBuild>0</VersionBuild>
+  <UpdateURL>https://www.tangoexchange.com/versions/silencebetweensongs.mmip</UpdateURL>
+  <NewVersionDescription>Silence-between-songs development support has ended. Use the Cortina plugin instead. https://www.tangoexchange.com/versions/cortina.mmip</NewVersionDescription>
 </SoftwareVersion>

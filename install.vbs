@@ -7,7 +7,7 @@ Dim ExcludeGapless : ExcludeGapless = False
 Dim CustomFieldToUse : CustomFieldToUse = 3
 Dim CustomFieldText : CustomFieldText = "[Gapless]"
 Dim AppTitle : AppTitle = "SilenceBetweenSongs"
-Dim cVersion : cVersion = "4.2.1.2"
+Dim cVersion : cVersion = "5.0.0.0"
 
 Dim Reg : Set Reg = SDB.Registry
 If Reg.OpenKey(AppTitle, True) Then

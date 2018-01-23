@@ -3,7 +3,7 @@
 '	Name: silencebetweensongs
 '	[silencebetweensongs]
 '	Filename=silencebetweensongs.vbs
-'	Description=Add silence between songs
+'	Description=(OBSOLETE, Use Cortina plugin instead) Add silence between songs
 '	Language=VBScript
 '	ScriptType=0 Auto Script
 
@@ -37,14 +37,24 @@ Dim CustomFieldToUse : CustomFieldToUse = 3
 Dim CustomFieldText : CustomFieldText = DEFAULTCustomFieldText
 
 Dim AppTitle : AppTitle = "SilenceBetweenSongs"
-Dim cVersion : cVersion = "4.2.1.2"
+Dim cVersion : cVersion = "5.0.0.0"
 Dim MenuItem : Set MenuItem = Nothing
 
 '---------------------
 Sub OnStartup
-   InitButton
-   InitTimer
-   SilenceBetweenSongs
+   '**** Do nothing, this plugin is obsolete
+   'InitButton
+   'InitTimer
+   'SilenceBetweenSongs
+
+   '**** Display obsolescence message
+   Dim MsgObsolete
+   MsgObsolete = "SilenceBetweenSongs is no longer maintained and no longer works." & vbNewLine & _
+                 "Uninstall the SilenceBetweenSongs to stop seeing this message." & vbNewLine & vbNewLine & _
+                 "Please use the Cortina plugin to add silence between songs." & vbNewLine & vbNewLine & _
+                 "https://www.tangoexchange.com/versions/cortina.mmip"
+
+   Call MsgBox(MsgObsolete, vbOkOnly + vbSystemModal)
 End Sub
 '---------------------
 Sub InitButton()
